@@ -1,22 +1,11 @@
 // TODO: Create a function that returns a license badge based on which license is passed in
 // If there is no license, return an empty string
-const licenseBadges = require('./utils/generateBadges');
+const licenseBadges = require('./generateBadges');
 
-
-
-// function renderLicenseBadge(license) {}
-
-// // TODO: Create a function that returns the license link
-// // If there is no license, return an empty string
-// function renderLicenseLink(license) {}
-
-// // TODO: Create a function that returns the license section of README
-// // If there is no license, return an empty string
-// function renderLicenseSection(license) {}
-
-// // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
+
   data.licenses = licenseBadges[data.license];
+
   return `# ${data.title}
  
   ---
@@ -25,7 +14,7 @@ function generateMarkdown(data) {
 
   ${data.description}
 
-  ${data.licenses}
+  ${data.license}
 
   [A version of the deployed website can be viewed here.](${data.url})
   
@@ -71,9 +60,9 @@ function generateMarkdown(data) {
 
   ## License 
 
-    The license used for this project was: ${data.license}. 
+    This reposititory is licensed under the ${data.license}. 
 
-    *For more information about this license, please visit: [[https://choosealicense.com/](https://choosealicense.com/)].
+    *For more information about this license or any others, please visit: [[https://choosealicense.com/](https://choosealicense.com/)].
 
   ---
 
