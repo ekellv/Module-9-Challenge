@@ -21,17 +21,22 @@ const questions = [
     }
     {
         type: "input"
-        message: "Please enter your project's title.",
+        message: "Please enter your project's title:",
         name: "title"
     }
     {
         type: "input",
-        message: "Please enter a brief description of your project.",
+        message: "Please enter a brief, preferably one-sentence, description of your project:",
         name: "description"
     }
     {
+        type: "input",
+        message: "Please enter a longer, more in-depth description of your project:",
+        name: "about"
+    }
+    {
         type: "list",
-        message: "Please choose a license for your project.",
+        message: "Please choose a license for your project:",
         name: "license",
         choices: [
             "MIT",
@@ -66,7 +71,16 @@ const questions = [
         message: "What should the user know about contributing to this repository?"
         name: "contributions"
     }
-
+    {
+        type: "input",
+        message: "What's the GitHub Pages URL for this project?",
+        name: "url"
+    }
+    {
+        type: "input",
+        message: "What's the GitHub repo link for this project?",
+        name: "repo"
+    },
 ];
 
 // function will run the above prompts with inquirer 
