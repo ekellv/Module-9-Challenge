@@ -3,6 +3,7 @@ const inquirer = require('inquirer');
 const fs = require('fs');
 const util = require("util");
 const markdown = require('./utils/generateMarkdown');
+const licenseBadges = require('./utils/generateBadges').licenseBadges;
 
 
 // fs.writefile will use promises to create files
@@ -105,6 +106,8 @@ const init = async () => {
         console.log("Thank you for using the Professional README generator.\nAnswer these questions and a quality README will be created for you.")
 
         const answers = await inquirerPrompts();
+
+        answers.licenseBadges = licenseBadges(answers.license);
 
         const readmeContent = markdown(answers);
         
