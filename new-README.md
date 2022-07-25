@@ -1,30 +1,25 @@
 
   
-  # rf
+  # 
  
   ---
 
   ## Description 
 
-  rf
+  
 
-  MIT
+  ![Github license](http://img.shields.io/badge/license-MIT-blue.svg)
 
-  [A version of the deployed website can be viewed here.](rf)
+  [A version of the deployed website can be viewed here.]()
   
   ---
 
   ## Contents
   1. [About](#about)
-
-    I. [User Story](#user%20story)
-
-    II. [Acceptance Criteria](#acceptance%20criteria)
-
-    III. [Visuals](#visuals)
-
-    IV. [Technologies](#technologies)
-
+    * [User Story](#user%20story)
+    * [Acceptance Criteria](#acceptance%20criteria)
+    * [Visuals](#visuals)
+    * [Technologies](#technologies)
   2. [Installation](#installation)
   3. [License](#license)
   4. [Contributing](#contributing)
@@ -34,7 +29,7 @@
   ---
   ## About
 
-    rf
+    
 
   ---
 
@@ -68,26 +63,26 @@
 
   ## Contributing 
   
-    rf
+    
 
   ---
 
   ## Testing 
 
     The command to run tests on this application is: 
-    rf
+    npm run test
  
   ---
 
   ## Authors and Acknowledgements
 
-  Built by: rf
+  Built by: 
 
   ---
 
   ## Contact Information
 
-  * GitHub Username: grfr
-  * Email: rf
+  * GitHub Username: rfr
+  * Email: 
   
   
