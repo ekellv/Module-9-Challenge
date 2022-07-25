@@ -14,7 +14,7 @@ function generateMarkdown(data) {
 
   ${data.description}
 
-  ![Github license](http://img.shields.io/badge/license-${data.license}-yellow.svg)
+  ![Github license](http://img.shields.io/badge/License-${data.license}-yellow.svg)
 
   [A version of the deployed website can be viewed here.](${data.url})
   
@@ -22,10 +22,10 @@ function generateMarkdown(data) {
 
   ## Contents
   1. [About](#about)
-    * [User Story](#user%20story)
-    * [Acceptance Criteria](#acceptance%20criteria)
-    * [Visuals](#visuals)
-    * [Technologies](#technologies)
+        * [User Story](#user%20story)
+        * [Acceptance Criteria](#acceptance%20criteria)
+        * [Visuals](#visuals)
+        * [Technologies](#technologies)
   2. [Installation](#installation)
   3. [License](#license)
   4. [Contributing](#contributing)
