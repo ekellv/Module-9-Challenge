@@ -1,22 +1,14 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
-const licenseBadges = require('./generateBadges');
-
-function generateMarkdown(data) {
-
-  data.licenses = licenseBadges[data.license];
-
-  return `# ${data.title}
+# rf
  
   ---
 
   ## Description 
 
-  ${data.description}
+  rf
 
-  ${data.license}
+  MIT
 
-  [A version of the deployed website can be viewed here.](${data.url})
+  [A version of the deployed website can be viewed here.]()
   
   ---
 
@@ -34,7 +26,7 @@ function generateMarkdown(data) {
   ---
   ## About
 
-    ${data.about}
+    rf
 
   ---
 
@@ -54,13 +46,13 @@ function generateMarkdown(data) {
   
     To install the application: 
     
-    ${data.installation}
+    undefined
 
   ---
 
   ## License 
 
-    This reposititory is licensed under ${data.license}. 
+    This reposititory is licensed under MIT. 
 
     *For more information about this license or any others, please visit: [https://choosealicense.com/](https://choosealicense.com/).
 
@@ -68,29 +60,26 @@ function generateMarkdown(data) {
 
   ## Contributing 
   
-    ${data.contributions}
+    
 
   ---
 
   ## Testing 
 
     The command to run tests on this application is: 
-    ${data.tests}
+    npm run test
  
   ---
 
   ## Authors and Acknowledgements
 
-  Built by: ${data.author}
+  Built by: rfrf
 
   ---
 
   ## Contact Information
 
-  * GitHub Username: ${data.username}
-  * Email: ${data.email}
+  * GitHub Username: frf
+  * Email: rfr
   
-  `;
-}
-
-module.exports = generateMarkdown;
+  
