@@ -1,4 +1,6 @@
-# rf
+
+  
+  # rf
  
   ---
 
@@ -8,15 +10,21 @@
 
   MIT
 
-  [A version of the deployed website can be viewed here.]()
+  [A version of the deployed website can be viewed here.](rf)
   
   ---
 
   ## Contents
   1. [About](#about)
-    1. [User Story](#user%20story)
-    2. [Acceptance Criteria](#acceptance%20criteria)
-    3. [Visuals](#visuals)
+
+    I. [User Story](#user%20story)
+
+    II. [Acceptance Criteria](#acceptance%20criteria)
+
+    III. [Visuals](#visuals)
+
+    IV. [Technologies](#technologies)
+
   2. [Installation](#installation)
   3. [License](#license)
   4. [Contributing](#contributing)
@@ -60,26 +68,26 @@
 
   ## Contributing 
   
-    
+    rf
 
   ---
 
   ## Testing 
 
     The command to run tests on this application is: 
-    npm run test
+    rf
  
   ---
 
   ## Authors and Acknowledgements
 
-  Built by: rfrf
+  Built by: rf
 
   ---
 
   ## Contact Information
 
-  * GitHub Username: frf
-  * Email: rfr
+  * GitHub Username: grfr
+  * Email: rf
   
   
