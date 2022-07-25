@@ -4,9 +4,9 @@ const licenseBadges = require('./generateBadges');
 
 function generateMarkdown(data) {
 
-  data.licenses = licenseBadges[data.license];
-
-  return `# ${data.title}
+  return `
+  
+  # ${data.title}
  
   ---
 
@@ -22,9 +22,15 @@ function generateMarkdown(data) {
 
   ## Contents
   1. [About](#about)
-    1. [User Story](#user%20story)
-    2. [Acceptance Criteria](#acceptance%20criteria)
-    3. [Visuals](#visuals)
+
+    I. [User Story](#user%20story)
+
+    II. [Acceptance Criteria](#acceptance%20criteria)
+
+    III. [Visuals](#visuals)
+
+    IV. [Technologies](#technologies)
+
   2. [Installation](#installation)
   3. [License](#license)
   4. [Contributing](#contributing)
