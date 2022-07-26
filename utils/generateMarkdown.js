@@ -1,84 +1,87 @@
-// TODO: Create a function that returns a license badge based on which license is passed in
-// If there is no license, return an empty string
 const licenseBadges = require('./generateBadges');
 
+// function to generate the markdown for the new-README.md file  
 function generateMarkdown(data) {
 
   return `
   
-  # ${data.title}
+# ${data.title}
 
-  ## Description 
+## Description 
 
-  ${data.description}
+${data.description}
 
-  ![Github license](http://img.shields.io/badge/License-${data.license}-yellow.svg)
+![Github license](http://img.shields.io/badge/License-${data.license}-yellow.svg)
 
-  [A version of the deployed website can be viewed here.](${data.url})
+[A version of the deployed website can be viewed here.](${data.url})
 
-  ## Contents
-  1. [About](#about)
-        * [User Story](#user%20story)
-        * [Acceptance Criteria](#acceptance%20criteria)
-        * [Visuals](#visuals)
-        * [Technologies](#technologies)
-  2. [Installation](#installation)
-  3. [License](#license)
-  4. [Usage](#usage)
-  5. [Contributing](#contributing)
-  6. [Tests](#tests)
-  7. [Authors and Acknowledgements](#authors%20and%20acknowledgements)
+## Contents
+1. [About](#about)
+      * [User Story](#user%20story)
+      * [Acceptance Criteria](#acceptance%20criteria)
+      * [Visuals](#visuals)
+      * [Technologies](#technologies)
+2. [Installation](#installation)
+3. [License](#license)
+4. [Usage](#usage)
+5. [Contributing](#contributing)
+6. [Tests](#tests)
+7. [Authors and Acknowledgements](#authors%20and%20acknowledgements)
 
-  ## About
+## About
 
     ${data.about}
 
-  ## User Story
-
-
-  
-  ## Acceptance Criteria 
+## User Story
 
 
 
-  ## Visuals: 
+## Acceptance Criteria 
+
+
+
+## Visuals: 
 
     ![]()
 
-  ## Installation: 
-  
+## Technologies
+
+
+
+## Installation 
+
     Please run the following dependencies to install the application: 
-    
+  
     ${data.dependencies}
-    
-  ## License 
+  
+## License 
 
     This reposititory is licensed under the ${data.license} license. 
 
-    * For more information about this license or any others, please visit: [https://choosealicense.com/](https://choosealicense.com/).
+    For more information about this license or any others, please visit: [https://choosealicense.com/](https://choosealicense.com/).
 
-  ## Usage 
+## Usage 
 
     ${data.usage}
 
-  ## Contributing 
-  
+## Contributing 
+
     ${data.contributions}
 
-  ## Testing 
+## Testing 
 
     The command to run tests on this application is: 
-    
+  
     ${data.tests}
 
-  ## Authors and Acknowledgements
+## Authors and Acknowledgements
 
-  Built by: ${data.author}
+    Built by: ${data.author}
 
-  ## Contact Information
+## Contact Information
 
-  * GitHub: [${data.username}](https://github.com/${data.username})
-  * Email: [${data.email}](mailto:${data.email})
+    * GitHub: [${data.username}](https://github.com/${data.username})
+    * Email: [${data.email}](mailto:${data.email})
   
   `;
 }
