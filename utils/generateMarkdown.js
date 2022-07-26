@@ -7,8 +7,6 @@ function generateMarkdown(data) {
   return `
   
   # ${data.title}
- 
-  ---
 
   ## Description 
 
@@ -17,8 +15,6 @@ function generateMarkdown(data) {
   ![Github license](http://img.shields.io/badge/License-${data.license}-yellow.svg)
 
   [A version of the deployed website can be viewed here.](${data.url})
-  
-  ---
 
   ## Contents
   1. [About](#about)
@@ -28,24 +24,22 @@ function generateMarkdown(data) {
         * [Technologies](#technologies)
   2. [Installation](#installation)
   3. [License](#license)
-  4. [Contributing](#contributing)
-  5. [Tests](#tests)
-  6. [Authors and Acknowledgements](#authors%20and%20acknowledgements)
+  4. [Usage](#usage)
+  5. [Contributing](#contributing)
+  6. [Tests](#tests)
+  7. [Authors and Acknowledgements](#authors%20and%20acknowledgements)
 
-  ---
   ## About
 
     ${data.about}
 
-  ---
-
   ## User Story
 
-  ---
 
+  
   ## Acceptance Criteria 
 
-  ---
+
 
   ## Visuals: 
 
@@ -55,41 +49,31 @@ function generateMarkdown(data) {
   
     Please run the following dependencies to install the application: 
     
-    \`
     ${data.dependencies}
-    \`
-
-  ---
-
+    
   ## License 
 
-    This reposititory is licensed under ${data.license}. 
+    This reposititory is licensed under the ${data.license} license. 
 
-    *For more information about this license or any others, please visit: [https://choosealicense.com/](https://choosealicense.com/).
+    * For more information about this license or any others, please visit: [https://choosealicense.com/](https://choosealicense.com/).
 
-  ---
+  ## Usage 
+
+    ${data.usage}
 
   ## Contributing 
   
     ${data.contributions}
 
-  ---
-
   ## Testing 
 
     The command to run tests on this application is: 
     
-    \`
     ${data.tests}
-    \`
- 
-  ---
 
   ## Authors and Acknowledgements
 
   Built by: ${data.author}
-
-  ---
 
   ## Contact Information
 
