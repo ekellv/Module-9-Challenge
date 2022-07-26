@@ -10,6 +10,7 @@ const licenseBadges = require('./utils/generateBadges').licenseBadges;
 const writeFileAsync = util.promisify(fs.writeFile);
 
 // array of questions to be run in inquirer to gather the user's inputs
+// purposely not adding errors to empty inputs so user can edit whatever they'd like inside the README.md itself with ease 
 const questions = [
     {
         type: "input",
@@ -101,6 +102,7 @@ const writeToFile = (fileName, data) => {
     return writeFileAsync(fileName, data);
 }
 
+// function to run the interface that will create the README file from all available information 
 const init = async () => {
     try {
         console.log("Thank you for using the Professional README generator.\nAnswer these questions and a quality README will be created for you.")
