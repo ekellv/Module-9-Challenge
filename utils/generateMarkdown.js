@@ -53,9 +53,11 @@ function generateMarkdown(data) {
 
   ## Installation: 
   
-    To install the application: 
+    Please run the following dependencies to install the application: 
     
-    ${data.installation}
+    \`
+    ${data.dependencies}
+    \`
 
   ---
 
@@ -76,7 +78,10 @@ function generateMarkdown(data) {
   ## Testing 
 
     The command to run tests on this application is: 
+    
+    \`
     ${data.tests}
+    \`
  
   ---
 
@@ -88,8 +93,8 @@ function generateMarkdown(data) {
 
   ## Contact Information
 
-  * GitHub Username: ${data.username}
-  * Email: ${data.email}
+  * GitHub: [${data.username}](https://github.com/${data.username})
+  * Email: [${data.email}](mailto:${data.email})
   
   `;
 }
