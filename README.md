@@ -25,7 +25,7 @@ A command line interface meant to generate a professional, quality README.md tem
 
 ## About
 
-    This project was created using node and is meant to quickly and simply create a README.md for the user to edit and deploy for any given project. The user answers questions in the command line, which form a template to be edited and deployed with ease. Some of the information is left purposely blank because it will be easier to edit in a README file than in the command line. 
+This project was created using node and is meant to quickly and simply create a README.md for the user to edit and deploy for any given project. The user answers questions in the command line, which form a template to be edited and deployed with ease. Some of the information is left purposely blank because it will be easier to edit in a README file than in the command line. 
 
 ## User Story
 
