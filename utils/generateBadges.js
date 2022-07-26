@@ -1,3 +1,4 @@
+// links for markdown export
 function licenseBadges(value) {
     if (value === "MIT") {
         return "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)";
