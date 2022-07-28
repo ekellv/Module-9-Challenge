@@ -17,20 +17,20 @@ ${data.description}
 
 ## Contents
 1. [About](#about)
-      * [User Story](#user%20story)
-      * [Acceptance Criteria](#acceptance%20criteria)
-      * [Visuals](#visuals)
-      * [Technologies](#technologies)
+      1. [User Story](#user%20story)
+      2. [Acceptance Criteria](#acceptance%20criteria)
+      3. [Visuals](#visuals)
+      4. [Technologies](#technologies)
 2. [Installation](#installation)
 3. [License](#license)
 4. [Usage](#usage)
 5. [Contributing](#contributing)
-6. [Tests](#tests)
+6. [Testing](#testing)
 7. [Authors and Acknowledgements](#authors%20and%20acknowledgements)
 
 ## About
 
-    ${data.about}
+${data.about}
 
 ## User Story
 
@@ -42,7 +42,7 @@ ${data.description}
 
 ## Visuals: 
 
-    ![]()
+![]()
 
 ## Technologies
 
@@ -50,40 +50,44 @@ ${data.description}
 
 ## Installation 
 
-    Please run the following dependencies to install the application: 
-  
-    ${data.dependencies}
-  
+Please run the following dependencies to install the application: 
+
+\`
+${data.dependencies}
+\`
+
 ## License 
 
-    This reposititory is licensed under the ${data.license} license. 
+This reposititory is licensed under the ${data.license} license. 
 
-    For more information about this license or any others, please visit: [https://choosealicense.com/](https://choosealicense.com/).
+For more information about this license or any others, please visit: [https://choosealicense.com/](https://choosealicense.com/).
 
 ## Usage 
 
-    ${data.usage}
+${data.usage}
 
 ## Contributing 
 
-    ${data.contributions}
+${data.contributions}
 
 ## Testing 
 
-    The command to run tests on this application is: 
-  
-    ${data.tests}
+The command to run tests on this application is: 
+
+\`
+${data.tests}
+\`
 
 ## Authors and Acknowledgements
 
-    Built by: ${data.author}
+Built by: ${data.author}
 
 ## Contact Information
 
-    * GitHub: [${data.username}](https://github.com/${data.username})
-    * Email: [${data.email}](mailto:${data.email})
-  
-  `;
+* GitHub: [${data.username}](https://github.com/${data.username})
+* Email: [${data.email}](mailto:${data.email})
+
+`;
 }
 
 module.exports = generateMarkdown;
