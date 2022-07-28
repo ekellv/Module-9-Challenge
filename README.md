@@ -57,8 +57,9 @@ THEN I am taken to the corresponding section of the README
 
 ## Visuals: 
 
-![README.md Generator Screenshot](Assets\README.md-screenshot.png)
-![README.md Generator GIF](Assets\README.md-gif.gif)
+![README md-gif-small](https://user-images.githubusercontent.com/103372188/181519202-ecc17335-e25b-42b9-90bb-9074800ba13d.gif)
+![README md-screenshot](https://user-images.githubusercontent.com/103372188/181518582-2ca71ecf-814e-4300-b6ec-2c4e2ccb30b9.png)
+
 
 ## Technologies
 
