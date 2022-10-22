@@ -8,7 +8,7 @@ A command line interface meant to generate a professional, quality README.md tem
 
 ![Github license](http://img.shields.io/badge/License-MIT-yellow.svg)
 
-[A version of the deployed website can be viewed here.]()
+[A recording of the application is available here.](https://drive.google.com/file/d/1Hvkl6Rqin4b12y8VwOmAit6T4ro2t247/view)
 
 ## Contents
 1. [About](#about)
